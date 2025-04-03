@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -10,18 +11,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Ativar link correspondente à seção visível
+
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link');
     
     function activateNavLink() {
         let current = '';
-        
+        const offset = 70;
+
         sections.forEach(section => {
-            const sectionTop = section.offsetTop;
+            const sectionTop = section.offsetTop - offset;
             const sectionHeight = section.clientHeight;
             
-            if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+            if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
                 current = section.getAttribute('id');
             }
         });
@@ -35,14 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('scroll', activateNavLink);
-    activateNavLink(); // Ativar ao carregar a página
+    activateNavLink(); 
 
-    // Adicione este evento para os cliques nos links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            // Remover active de todos os links
             navLinks.forEach(item => item.classList.remove('active'));
-            // Adicionar active apenas no link clicado
             this.classList.add('active');
         });
     });
@@ -50,8 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-    // Carregar projetos dinamicamente
     const projectsGrid = document.getElementById('projects-grid');
     const projects = [
         {
@@ -138,8 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
             link: "https://github.com/Taina-Valentim/FichaVampiro",
             idFoto: 12
         }
-        
-        // Adicione mais projetos conforme necessário
     ];
 
     projects.forEach(project => {
@@ -155,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="project-tags">
                     ${project.tags.map(tag => `<span>${tag}</span>`).join(' \u2022 ')}
                 </div>
-                <a href="${project.link}" target="_blank" class="btn btn-primary project-link">Ver Detalhes</a>
+                <a href="${project.link}" target="_blank" class="btn btn-personalizado project-link">Ver Detalhes</a>
             </div>
         `;
         projectsGrid.appendChild(projectCard);
