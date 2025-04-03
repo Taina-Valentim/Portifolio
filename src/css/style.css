@@ -1,6 +1,6 @@
 :root {
     --primary: #6C63FF;
-    --secondary: #FF6584;
+    --secondary: #A164C2;
     --accent: #00BFB2;
     --dark: #121212;
     --darker: #0A0A0A;
@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+.project-title > span {
+    color: #FF3A82;
+    font-size: 20px;
+}
 
 
 
@@ -119,7 +123,7 @@ body {
 }
 
 .hero-image {
-    width: 80%;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
     transform: perspective(1000px) rotateY(-15deg);
@@ -241,9 +245,9 @@ body {
 .category-title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: var(--primary);
+    color: var(--secondary);
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--secondary);
     display: inline-block;
 }
 
@@ -304,14 +308,14 @@ body {
     display: flex;
     align-items: center;
     margin: 30px 0;
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .contact-divider::before,
 .contact-divider::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid rgba(108, 99, 255, 0.3);
+    border-bottom: 2px solid rgba(135, 0, 203, 0.3);
 }
 
 .direct-contact-buttons {
@@ -345,6 +349,8 @@ body {
     text-align: center;
 }
 
+
+
 .direct-contact-button span {
     font-size: 1rem;
     margin: 0;
@@ -358,14 +364,16 @@ body {
 }
 
 .fa-envelope {
-    color: #EA4335;
+    color: #de0000;
 }
 
 .fab.fa-whatsapp {
     color: #25D366;
 }
 
-
+.fab.fa-linkedin {
+    color: #0057ae;
+}
 
 
 

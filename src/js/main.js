@@ -52,28 +52,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectsGrid = document.getElementById('projects-grid');
     const projects = [
         {
-            title: "Jogo da Advinhação",
+            title: "Jogo da Advinhação <span>(Ruby)</span>",
             description: "Um jogo em Ruby em que o jogador tenta advinhar um número escolhido aleatóriamente",
             tags: ["Ruby"],
             link: "https://github.com/Taina-Valentim/Jogo-da-Advinhacao",
             idFoto: 1
         },
         {
-            title: "Jogo da Advinhação",
+            title: "Jogo da Advinhação <span>(Python)</span>",
             description: "Um jogo de advinhação feito inicialmente em Ruby que foi adaptado para a linguagem Python",
             tags: ["Python"],
             link: "https://github.com/Taina-Valentim/Jogo-da-Advinhacao-Py",
             idFoto: 2
         },
         {
-            title: "Gerenciamento de Cemitérios",
+            title: "Gerenciamento de Cemitérios <span>(Python)</span>",
             description: "Projeto desenvolvido para o gerenciamento de um cemitério com banco de dados",
             tags: ["Python", "SQLite"],
             link: "https://github.com/Taina-Valentim/Gerenciamento-de-Cemiterios",
             idFoto: 3
         },
         {
-            title: "Gerenciamento de Cemitérios",
+            title: "Gerenciamento de Cemitérios <span>(Django)</span>",
             description: "Projeto de gerenciamento de cemitérios feito inicialmente em Python que foi adaptado para o framework Django",
             tags: ["Python", "HTML", "CSS", "Django", "Bootstrap", "Heroku"],
             link: "https://github.com/Taina-Valentim/Gerenciamento-de-Cemiterios-Django",
