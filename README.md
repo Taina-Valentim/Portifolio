@@ -27,7 +27,7 @@ Repositório contendo meu portfólio profissional como desenvolvedora Full Stack
 - 🖌️ Tipografia e espaçamento cuidadosamente planejados
 
 ### **Integrações**
-- 📩 Sistema de contato via <a href="https://formspree.io/" target="_blank" rel="noopener noreferrer">Formspree</a>
+- 📩 Sistema de contato via [Formspree‌](https://formspree.io/)
 - 🔗 Links para redes sociais e GitHub
 - 🔍 SEO otimizado para mecanismos de busca
 
@@ -60,4 +60,6 @@ xdg-open index.html
 open index.html
 ```
 
-### <a href="https://taina-valentim.github.io/Portifolio/" target="_blank" rel="noopener noreferrer">Acesse o site online aqui</a>
+### [Acesse o site online aqui](https://taina-valentim.github.io/Portifolio/)
+
+ <script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
