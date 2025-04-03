@@ -27,7 +27,7 @@ Repositório contendo meu portfólio profissional como desenvolvedora Full Stack
 - 🖌️ Tipografia e espaçamento cuidadosamente planejados
 
 ### **Integrações**
-- 📩 Sistema de contato via [Formspree‌](https://formspree.io/){target="_blank"}
+- 📩 Sistema de contato via [Formspree‌](https://formspree.io/)
 - 🔗 Links para redes sociais e GitHub
 - 🔍 SEO otimizado para mecanismos de busca
 
@@ -60,4 +60,6 @@ xdg-open index.html
 open index.html
 ```
 
-### [Acesse o site online aqui](https://taina-valentim.github.io/Portifolio/){target="_blank"}
+### [Acesse o site online aqui](https://taina-valentim.github.io/Portifolio/)
+
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
