@@ -62,4 +62,4 @@ open index.html
 
 ### [Acesse o site online aqui](https://taina-valentim.github.io/Portifolio/)
 
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+<a href="https://taina-valentim.github.io/Portifolio/" target="_blank">Acesse o site online aqui</a>
