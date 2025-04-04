@@ -62,4 +62,4 @@ open index.html
 
 ### [Acesse o site online aqui](https://taina-valentim.github.io/Portifolio/)
 
-<a href="https://taina-valentim.github.io/Portifolio/" target="_blank">Acesse o site online aqui</a>
+
