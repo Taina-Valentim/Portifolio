@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Projeto de gerenciamento de cemitérios feito inicialmente em Python que foi adaptado para o framework Django",
             tags: ["Python", "HTML", "CSS", "Django", "Bootstrap", "Heroku"],
             link: "https://github.com/Taina-Valentim/Gerenciamento-de-Cemiterios-Django",
-            idFoto: 0
+            idFoto: 4
         },
         {
             title: "Project Robozinho",
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Projeto de gerenciamento de cemitérios feito inicialmente em Python e Django que foi adaptado para a linguagem Java",
             tags: ["Java", "POO", "MySQL", "Criação de Telas", "Login e Autenticação", "Criptografia de Dados", "Gerenciamento de Usuários e Perfis", "Tratamento de Exceções"],
             link: "https://github.com/Taina-Valentim/ProjetoPOO",
-            idFoto: 0
+            idFoto: 8
         },
         {
             title: "Project RPG",
